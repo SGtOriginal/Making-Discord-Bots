@@ -1,1 +1,1 @@
-worker: python3 scp.py
+worker: python3 discord-bot.py

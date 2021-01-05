@@ -14,20 +14,31 @@ If you are using Mac, then download it https://www.python.org/downloads/mac-osx/
 Stage 1:
 
 1: Download the files.
+
 2: Put all the files in one single folder.
 
 Stage 2:
 
-1: Go to https://discord.com/developers/ </n>
+1: Go to https://discord.com/developers/
+
 2: Open a new application
+
 3: Put a name for the application
+
 4: Now go to the Bot sub-part
+
 5: Click on Add Bot and confirm
+
 6: Give your bot the permissions it requires
+
 7: Now go to OAuth2 sub-part
+
 8: In the Scopes under OAuth2 URL Generator, click the checkbox beside bot, give it the permissions it requires by scrolling down and copy the url generated.
+
 9: Copy the link generated and paste it in the Redirects section.
+
 10: Click on the Select Redirect URL and click on the first option.
+
 11: Go to the Bot sub-part and copy the bot token.
 
 Stage 3:

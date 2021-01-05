@@ -58,5 +58,33 @@ async def print(ctx, *args):
 		response = response + " " + arg
 
 	await ctx.channel.send(response)
+
+@client.command(
+	help="Add numbers.",
+	brief="Add numbers."
+)
+async def add(ctx, a: int, b: int):
+	await ctx.send(a + b)
+	
+@client.command(
+	help="Subtract numbers.",
+	brief="Subtract numbers."
+)
+async def sub(ctx, a: int, b: int):
+	await ctx.send(a - b)
+	
+@client.command(
+	help="Multiplies numbers.",
+	brief="Multiplies numbers."
+)
+async def mul(ctx, a: int, b: int):
+	await ctx.send(a * b)
+
+@client.command(
+	help="Divide numbers like this.",
+	brief="Divide numbers like this."
+)
+async def div(ctx, a: int, b: int):
+	await ctx.send(a / b)
   
 client.run('Paste bot token here')

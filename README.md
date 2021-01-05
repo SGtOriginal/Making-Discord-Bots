@@ -18,7 +18,7 @@ Stage 1:
 
 Stage 2:
 
-1: Go to https://discord.com/developers/ 
+1: Go to https://discord.com/developers/ </n>
 2: Open a new application
 3: Put a name for the application
 4: Now go to the Bot sub-part

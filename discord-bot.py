@@ -1,6 +1,12 @@
 import discord
+#from discord.ext.commands import Bot
 from discord.ext import commands
 from random import choice
+import shutil
+from discord.utils import get
+import os
+from os import system
+import asyncio
 
 client = commands.Bot(command_prefix = 'Put your bot prefix here')
 
@@ -16,7 +22,11 @@ async def on_member_join(member):
 async def on_member_remove(member):
     print(f'{member} has left. Bye!')
 
-@client.command()
+@client.command(
+	help="Uses come crazy logic to determine if pong is actually the correct value or not.",
+	brief="Prints pong back to the channel."
+)
+
 async def ping(ctx):
     await ctx.send(f'Pong! {round(client.latency * 1000)}ms')
 
@@ -25,13 +35,28 @@ async def hello(ctx):
     await ctx.send(f'Hi!')
 
 @client.command()
-async def helpme(ctx):
-    await ctx.send(f'Here is the list of commands: <helpme <ping <hello')
-
-@client.command()
 @commands.has_permissions(manage_messages = True)
-async def ClearMSG(ctx):
+async def clear(ctx):
     await ctx.channel.purge(limit=10000)
     await ctx.send(f'Channel cleared!')
+
+@client.command(
+	help="Changes the nickname to 'You got trolled'",
+	brief="The name says it all."
+)
+async def troll(ctx, member : discord.Member):
+    await member.edit(nick="You got trolled!")
+    
+@client.command(
+	help="Looks like you need some help, lol.",
+	brief="Prints the list of values back to the channel."
+)
+async def print(ctx, *args):
+	response = ""
+
+	for arg in args:
+		response = response + " " + arg
+
+	await ctx.channel.send(response)
   
 client.run('Paste bot token here')

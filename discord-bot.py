@@ -48,18 +48,6 @@ async def troll(ctx, member : discord.Member):
     await member.edit(nick="You got trolled!")
     
 @client.command(
-	help="Looks like you need some help, lol.",
-	brief="Prints the list of values back to the channel."
-)
-async def print(ctx, *args):
-	response = ""
-
-	for arg in args:
-		response = response + " " + arg
-
-	await ctx.channel.send(response)
-
-@client.command(
 	help="Add numbers.",
 	brief="Add numbers."
 )

@@ -52,6 +52,7 @@ Stage 3:
 4: Save the file
 
 Stage 4:
+
 1: Open a private repository in GitHub and remember the name.
 
 2: Upload all the files you downloaded from my repository, including the python file you updated, on your main branch.

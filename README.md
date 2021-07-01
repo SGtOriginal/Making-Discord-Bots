@@ -7,8 +7,10 @@ Welcome to documentation #1 of Making Discord Bots, the detailed describtion on 
 I assume that you have Python 3, version 3.8.6.
 If you don't have Python 3, then follow these steps:
 
-If you are using Windows, then download it from https://www.python.org/download/releases/3.0/ 
+If you are using Windows, then download it from https://www.python.org/download/releases/3.0/
+
 If you are using Linux, then do 'apt-get install python3 python3-pip'
+
 If you are using Mac, then download it https://www.python.org/downloads/mac-osx/ 
 
 Stage 1:

@@ -4,8 +4,7 @@ Welcome to documentation #1 of Making Discord Bots, the detailed describtion on 
 
 
 
-I assume that you have Python 3, version 3.8.6.
-If you don't have Python 3, then follow these steps:
+I assume that you have Python 3. If you don't have Python 3, then follow these steps:
 
 If you are using Windows, then download it from https://www.python.org/download/releases/3.0/
 
@@ -59,7 +58,7 @@ Stage 4:
 
 2: Click on 'New Repl' on the left pane.
 
-3: Upload all the files you downloaded from my repository, including the python file you updated, on it branch.
+3: Upload all the files you downloaded from my repository, except the requirements.txt file, on it.
 
 4: Run the program by clicking on the green 'Run' button.
 

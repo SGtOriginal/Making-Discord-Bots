@@ -94,6 +94,8 @@ Thank you for following my tutorial. I hope it helped you a lot!
 
 
 To contact me:
+
+
 Discord: SGt Original#2252
 
 Email: sgtoriginal@gmail.com (High possibilty of not answering back :) )

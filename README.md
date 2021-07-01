@@ -55,37 +55,30 @@ Stage 3:
 
 Stage 4:
 
-1: Open a private repository in GitHub and remember the name.
+1: Go to www.replit.com
 
-2: Upload all the files you downloaded from my repository, including the python file you updated, on your main branch.
+2: Click on 'New Repl' on the left pane.
+
+3: Upload all the files you downloaded from my repository, including the python file you updated, on it branch.
+
+4: Run the program by clicking on the green 'Run' button.
+
+5: Two windows will open up. One would be the console showing the logs and the bot id. The other would be a website showing the words 'Hello!'. Copy that window's url.
 
 Stage 5:
 
-1: Go to www.heroku.com
+1: Go to www.freshworks.com/website-monitoring/
 
-2: Get yourself an account.
+2: Paste the url in the place where it tells you to and enter you email in its required place.
 
-3: Go to your dashboard and click New and the New App
+3: Your dashboard should open up and the website for your app should be automatically be added. If not, click on the 'Add Check' button in the top right corner.
 
-4: Give it a name, choose a region and click on Create App.
+4: Put in the url, the name of your bot and click 'Add Check'.
 
-5: Go to Settings, scroll down to Buildpacks, click Add Buildpack, click on Python and then click on Save Changes.
-
-6: Go to Deploy and click on Connect to GitHub.
-
-7: Put in your bot repository and click Search.
-
-8: Select the correct repository from the options and click Connect.
-
-9: Click Enable Automatic Deploys and then click Deploy branch.
-
-10: Wait for it to build itself and it should be successful.
-
-11: Scroll up to the top of the same page and click Resources.
-
-12: Under Free Dynos, click on the Pen button, then on the slider and then click Confirm.
+5: It should be added.
 
 Stage 6:
+
 1: Now go back to https://discord.com/developers/ , then to your bot application, go to OAuth2, copy your Redirect URL from the Redirects already added and paste it in a new tab.
 
 2: Add your bot to your server and Authorize its access.

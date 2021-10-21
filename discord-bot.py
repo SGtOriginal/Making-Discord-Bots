@@ -8,7 +8,7 @@ client = commands.Bot(command_prefix = 'Your Preferred Bot Prefix')
 
 @client.event
 async def on_ready():
-    await client.change_presence(activity=discord.Game('Enter Any Random Here'))
+    await client.change_presence(activity=discord.Game('Enter Anything Random Here'))
     
     print('Connected to bot: {}'.format(client.user.name))
     print('Bot ID: {}'.format(client.user.id))

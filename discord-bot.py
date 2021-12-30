@@ -36,9 +36,7 @@ async def clear(ctx, a: int):
 	brief="The name says it all."
 )
 async def nick(ctx, member : discord.Member, args):
-  
   await member.edit(nick=args)
-    
   await ctx.send(f'Nickname changed.')
 	
 @client.command(
@@ -47,10 +45,8 @@ async def nick(ctx, member : discord.Member, args):
 )
 async def print(ctx, *args):
 	response = ""
-
 	for arg in args:
 		response = response + " " + arg
-
 	await ctx.channel.send(response)
 
 @client.command(
